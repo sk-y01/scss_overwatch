@@ -1,0 +1,19 @@
+{
+  "name": "overwatch-hero-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.90.0"
+  },
+  "homepage": "https://sk-y01.github.io/scss_overwatch/"
+}
