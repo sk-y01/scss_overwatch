@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html -d build --public-url /scss_overwatch/",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.90.0"
   },
-  "homepage": "https://sk-y01.github.io/scss_overwatch/"
+  "homepage": "https://sk-y01.github.io"
 }
